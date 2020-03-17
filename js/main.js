@@ -45,3 +45,18 @@ $.ajax({
         alert('errore')
     }
 });
+
+
+//EXTRA
+$('.container-list').on('mouseenter', '.list', function(){
+    var questoAlbum = $(this);
+
+    questoAlbum.addClass('hover');
+});
+
+
+$('.container-list').on('mouseleave', '.list', function(){
+    var questoAlbum = $(this);
+
+    questoAlbum.removeClass('hover');
+});

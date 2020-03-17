@@ -20,6 +20,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+header img{
+    width:30px;
+    object-fit: contain;
+    margin-bottom: 5px;
 }
 
 header select{
@@ -47,6 +54,7 @@ header select{
     align-items: center;
     margin: 50px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .list img{
@@ -65,4 +73,8 @@ header select{
 .list span{
     margin-bottom: 5px;
     color: #ededed;
+}
+
+.hover{
+    opacity:0.5;
 }
