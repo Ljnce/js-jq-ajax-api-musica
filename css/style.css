@@ -5,37 +5,48 @@
     font-family: 'Montserrat', coursive;
 }
 
+/* Container */
 .container{
     width: 100vw;
     min-height: 100vh;
     background-color: black;
 }
 
+/* Header */
 header{
     height: 70px;
     width: 100%;
-    background-color: red;
+    background-color: #00cc7a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+header select{
+    height: 20px;
+}
+
+/* Lista elementi */
 .container-list{
     width: 1200px;
     min-height: calc(100vh - 70px);
-    border: 1px solid white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto;
 }
 
 .list{
-    height: 300px;
-    width: 200px;
-    background-color: red;
+    height: 350px;
+    width: 250px;
+    background-color: #00cc7a;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px;
+    border-radius: 10px;
 }
 
 .list img{
@@ -43,7 +54,15 @@ header{
     object-fit: contain;
 }
 
-.list h2,
+.list h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+
 .list span{
     margin-bottom: 5px;
+    color: #ededed;
 }
